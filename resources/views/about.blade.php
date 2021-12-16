@@ -1,5 +1,7 @@
 @extends('layout')
 
+@section('title', 'About Us | Hello City')
+
 @section('content')
     <p>Built with &hearts; by LES TEACHERS DU NET</p>
 
