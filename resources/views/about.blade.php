@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'About Us | Hello City')
+@section('title', 'About Us | ' . config('app.name'))
 
 @section('content')
     <p>Built with &hearts; by LES TEACHERS DU NET</p>
