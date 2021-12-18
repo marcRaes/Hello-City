@@ -1,6 +1,4 @@
-@extends('layout')
-
-@section('title', 'About Us | ' . config('app.name'))
+@extends('layout', ['title' => 'About Us'])
 
 @section('content')
     <img src="{{ asset('images/tdn_logo.png') }}" alt="TDN Logo" class="my-12 rounded-full shadow-md">
